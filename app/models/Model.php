@@ -21,7 +21,7 @@ abstract class Model{
     }
 
     public function find($field, $value){
-        $sql = 'SELECT * FROM users WHERE {$field} = ?';
+        $sql = "SELECT * FROM users WHERE {$field} = ?";
         $list=$this->connection->prepare($sql);
         $list->bindValue(1, $value);
         $list->execute();
