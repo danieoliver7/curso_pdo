@@ -1,23 +1,24 @@
 <?php
 
-
-
-use app\classes\Routes;
-use app\classes\Uri;
-use app\controllers;
-
 require "../bootstrap.php";
 
+use app\classes\Layout;
+use app\classes\Routes;
+use app\classes\Uri;
+
+
+
+
 $routes = [
-    '/' => 'controllers/index.php'
+    '/curso_pdo-main/public/' => 'controllers/index',
+    '/curso_pdo-main/public/create_user' => 'controllers/index',
 ];
 
 
-
-$uri = '/';
-//parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-
-//Uri::load();
+$uri = Uri::load();
+$layout = new Layout;
 
 
 require Routes::load($routes, $uri);
+
+require $layout->master('layout');
