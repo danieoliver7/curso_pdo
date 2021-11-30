@@ -15,7 +15,7 @@
 
     <div class="btn-group">
             <a class="btn btn-default" href="/curso_pdo-main/public/" role="button">Inicio</a>
-            <a class="btn btn-default" href="/curso_pdo-main/public/create_user" role="button">Cadastrar</a>
+            <a class="btn btn-default" href="/curso_pdo-main/public//" role="button">Cadastrar</a>
         </div>
 
 

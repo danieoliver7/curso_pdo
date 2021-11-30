@@ -1,9 +1,14 @@
 <?php
 
 namespace app\models;
+use app\traits\PersistDb;
 use app\models\Connection;
 
 abstract class Model{
+
+    use PersistDb;
+
+
 
     protected $connection;
 
