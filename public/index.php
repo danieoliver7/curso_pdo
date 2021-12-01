@@ -11,9 +11,10 @@ use app\classes\Uri;
 
 $routes = [
     '/curso_pdo-main/public/' => 'controllers/index',
-    '/curso_pdo-main/public//' => 'controllers/create_user',
+    '/curso_pdo-main/public//' => 'controllers/user_create',
     '/curso_pdo-main/public///' => 'controllers/user_store',
     '/curso_pdo-main/public////' => 'controllers/user_edit',
+    '/curso_pdo-main/public/////' => 'controllers/user_update'
 
 ];
 

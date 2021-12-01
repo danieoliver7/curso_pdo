@@ -17,7 +17,7 @@
        <td><?=$user->email?></td> 
        
       <td>
-      <a href="////?id=<?=$user->id;?>" class="btn btn-warning btn-xs">Editar</a> 
+      <a href="/curso_pdo-main/public////?id=<?=$user->id;?>" class="btn btn-warning btn-xs">Editar</a> 
       <a href="/user_destroy?id=<?=$user->id;?>" class="btn btn-danger btn-xs">Excluir</a> 
     </td>
     <?php endforeach;?>

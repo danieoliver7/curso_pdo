@@ -24,7 +24,7 @@
         </label>
         <input type="text"  name="password"class="form-control" >
     </div>
-
-    <button type="submit" class="btn btn-primary" top="1%"> Cadastrar</button>
+    <br>
+    <button type="submit" class="btn btn-primary btn-xs" top="1%"> Cadastrar</button>
 
 </form>
